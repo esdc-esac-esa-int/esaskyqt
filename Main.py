@@ -200,6 +200,7 @@ class ControlBox(QWidget):
         #self.resultTableWidgetArea.
         pass
 
+# set it to False to hide all panels but ESASky
 showCommands = True
 
 if __name__ == "__main__":
