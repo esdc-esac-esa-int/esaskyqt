@@ -37,7 +37,7 @@ class FovBox(AbstractWidget):
         # FoV box
         label = QLabel('FoV in degrees: ', self)
         self.inputText = QLineEdit(self)
-        self.inputText.setPlaceholderText('20.4')
+        self.inputText.setPlaceholderText('decimal degrees')
         self.inputText.setMinimumWidth(1)
         button = QPushButton("set FoV")
         button.clicked.connect(self.onClick)
